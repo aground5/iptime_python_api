@@ -154,7 +154,7 @@ class IPTimeAPIClass:
         return result
 
 if __name__ == '__main__':
-    api = IPTimeAPIClass("192.168.0.1", "grida", "grida1234")
+    api = IPTimeAPIClass("192.168.0.1", "id", "pw")
     while True:
         a, b, c = api.easymesh_stations()
         print(c[0].down_bytes)
